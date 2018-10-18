@@ -1,0 +1,11 @@
+to build docker follow the command below: change label 1 to desired value
+sudo docker build . -t edureka-project:1
+
+to run docker
+
+docker run -d -p 8080:80 edureka-project:1
+
+
+to test the deployment
+
+python3 build-test.py

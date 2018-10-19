@@ -9,3 +9,5 @@ docker run -d -p 8080:80 edureka-project:1
 to test the deployment
 
 python3 build-test.py
+
+adding a line for pollSCM test
